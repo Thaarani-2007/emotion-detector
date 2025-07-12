@@ -51,21 +51,22 @@ This project uses the **Ryerson Audio-Visual Database of Emotional Speech and So
 
 emotion-detector-app/
 ├── backend/
-│ ├── app.py
-│ ├── requirements.txt
-│ └── model/
-│ ├── xgb_ravdess_emotion_model.pkl
-│ └── label_encoder.pkl
+│   ├── app.py
+│   ├── requirements.txt
+│   └── model/
+│       ├── xgb_ravdess_emotion_model.pkl
+│       └── label_encoder.pkl
 ├── frontend/
-│ ├── src/
-│ │ ├── api/
-│ │ │ └── emotionAPI.js
-│ │ └── components/
-│ │ └── EmotionForm.jsx
-│ ├── public/
-│ └── package.json
+│   ├── public/
+│   ├── package.json
+│   └── src/
+│       ├── api/
+│       │   └── emotionAPI.js
+│       └── components/
+│           └── EmotionForm.jsx
 ├── .gitignore
 └── README.md
+
 
 ## 💻 Local Setup
 
