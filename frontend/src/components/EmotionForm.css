@@ -106,4 +106,37 @@ body {
     color: #8a2b2b;
     border: 1px solid #f5c6cb;
   }
+  .record-controls {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .record-button {
+    background-color: #38a169; /* emerald green */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 9999px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 14px rgba(56, 161, 105, 0.25);
+  }
+  
+  .record-button:hover {
+    background-color: #2f855a; /* darker green on hover */
+    transform: scale(1.03);
+  }
+  
+  .record-button.stop {
+    background-color: #68d391; /* lighter green for stop */
+    color: #1a202c; /* dark text for contrast */
+  }
+  
+  .record-button.stop:hover {
+    background-color: #48bb78;
+    transform: scale(1.03);
+  }
   
