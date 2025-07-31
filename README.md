@@ -62,10 +62,3 @@ It allows users to either **record their voice live** or **upload audio files (W
 
 ---
 
-## 🚀 Getting Started (Run Locally)
-
-### 1️⃣ Clone the Repository
-
-```bash
-git clone https://github.com/Thaarani-2007/ser-model.git
-cd ser-model
